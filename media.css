@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    
+}
+#main{
+    width: 100%;
+    height: 650px;
+    background:rgb(214, 209, 227)
+}
+#main h1{
+    font-size: 35px;
+    color:black;
+    text-align:center;
+} 
+#main .webdev, .ml{
+    width: 50%;
+    height: 480px;
+    background:rgb(166, 190, 165);
+    float:left;
+    border: 1px solid;
+}
+
+.webdev{
+font-size: 21px;
+padding: 30px;
+}
+
+.ml{
+    font-size: 21px;
+    padding:28px
+}
+
+
+#main i{
+    font-size: 25px;
+    color:black;
+    
+}
+@media(max-width: 977px){
+    #main h1{
+        color:grey;
+    
+    }
+    .webdev{
+        font-size:20px
+    }
+    .ml{
+        font-size:20px
+    }
+    .i{
+        font-size:23px;
+    }
+}
+@media(max-width: 877px){
+    #main h1{
+        color:rgb(105, 35, 35);
+    
+    }
+    .webdev{
+        font-size:17px
+    }
+    .ml{
+        font-size:17px
+    }
+    .i{
+        font-size:20px;
+    }
+}
+
+
+@media(max-width: 635px){
+    #main h1{
+        color:rgb(17, 2, 2);
+    
+    }
+    .webdev{
+        font-size:13px
+    }
+    .ml{
+        font-size:13px
+    }
+    .i{
+        font-size:15px;
+    }
+}
+@media(max-width: 425px){
+    #main h1{
+        color:rgb(136, 104, 104);
+    
+    }
+    .webdev{
+        font-size:12px;
+    }
+    .ml{
+        font-size:12px;
+    }
+    .i{
+        font-size:14px;
+    }
+}
+@media(max-width: 385px){
+    #main h1{
+        color:rgb(11, 10, 10);
+    
+    }
+    .webdev{
+        font-size:8px
+    }
+    .ml{
+        font-size:8px
+    }
+    .i{
+        font-size:11px;
+    }
+}
+
+
+
